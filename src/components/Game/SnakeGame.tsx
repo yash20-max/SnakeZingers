@@ -227,7 +227,7 @@ const SnakeGame: React.FC = () => {
       <div className='blur-effect p-3 rounded-md'>
         <h2 className='text-4xl font-bold mt-4 mb-3'>Game Over!</h2>
         <button onClick={resetGame} className='bg-white text-purple-700 font-bold hover:border-purple-700 border-4 text-lg'>Try Again</button>
-        <img src=".\youlost.png" width={200} height={200} className='w-[400px] my-2 rounded-lg' alt="" />
+        <img src="./youlost.png" width={200} height={200} className='w-[400px] my-2 rounded-lg' alt="" />
       </div>
     )}
 
