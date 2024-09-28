@@ -218,7 +218,7 @@ const SnakeGame: React.FC = () => {
       <canvas ref={canvasRef} className={` w-[300px] h-[500px] md:w-[500px] md:h-[500px]`} width={500} height={500}></canvas>
       <button onClick={pauseGame} className='m-2 focus:outline-none'><FaPlay />
       </button>
-      <a href="/" className='hover:text-white text-white m-2'><button className='focus:outline-none '><RxCross2 />
+      <a href="/" className=' m-2'><button className='focus:outline-none '><RxCross2 />
 
       </button></a>
 

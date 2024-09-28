@@ -5,11 +5,11 @@
 function TopBar(){
  return (
     <nav className={'topbar-v2 blur-effect '}>
-        <a href={'/'} className="flex items-center flex-row navlink">
+        <a href={'/'} className="flex items-center dark:text-white flex-row navlink">
         SnakeZinger</a>
 
         <div>
-            <a className="navlink " href={"/snake"}><button className="">Play Now!</button> </a>
+            <a className="dark:text-white" href={"/snake"}><button className="">Play Now!</button> </a>
         </div>
 
         
