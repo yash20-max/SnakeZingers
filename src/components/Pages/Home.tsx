@@ -8,7 +8,7 @@ const Home = () => {
           <div className=''>
     {/* <TopBar/> */}
 <div className="flex flex-col md:flex-row rounded-lg blur-effect">
-    <img src="src\assets\snakelord.png" alt=""  className="max-w-[500px] w-[400px] rounded-l-lg drop-shadow-md "/>
+    <img src=".\snakelord.png" alt=""  className="max-w-[500px] w-[400px] rounded-l-lg drop-shadow-md "/>
     
     <div className="flex flex-col text-left justify-center px-10">
     <p className="text-3xl font-bold ">SnakeZinger.com</p>
